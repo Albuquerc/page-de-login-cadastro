@@ -1,0 +1,104 @@
+body {
+    background-color: #01344e;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: auto;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 97%;
+  }
+  
+  button {
+    appearance: button;
+    background-color: #086a97;
+    width: 96%;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 4 4 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+   }
+   
+   button:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: 4px;
+    content: "";
+    left: 5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   
+   button:main, button:focus {
+    user-select: auto;
+   }
+   
+   button:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   
+   button:disabled {
+    cursor: auto;
+   }
+   
+   button:active:after {
+    border-width: 0 0 0px;
+   }
+   
+   button:active {
+    padding-bottom: 10px;
+   }
+  
+  a {
+    color: white;
+  }
+  
